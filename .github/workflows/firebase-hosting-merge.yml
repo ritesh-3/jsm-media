@@ -12,9 +12,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    env:
-      CI: false
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
